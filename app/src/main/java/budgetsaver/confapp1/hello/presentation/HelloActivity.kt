@@ -29,9 +29,9 @@ class HelloActivity : AppCompatActivity() {
 
     }
 
-    override fun onBackPressed() {
-       // super.onBackPressed()
-    }
+    //override fun onBackPressed() {
+    // super.onBackPressed()
+    //}
 
     //closeHelloButton.clo
 
