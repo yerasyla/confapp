@@ -7,7 +7,7 @@ import android.util.Log
 import android.widget.Button
 import budgetsaver.confapp1.R
 
-private const val TAG = "HelloActivity1"
+private const val TAG = "HelloActivity"
 
 
 class HelloActivity : AppCompatActivity() {
@@ -19,14 +19,14 @@ class HelloActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        Log.d(TAG, "onCreateHello")
+
         setContentView(R.layout.activity_hello)
 
         closeHelloButton.setOnClickListener {
             finish()
         }
 
-
+        Log.d(TAG, "onCreateHello")
     }
 
     override fun onBackPressed() {
