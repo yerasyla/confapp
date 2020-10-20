@@ -7,7 +7,7 @@ import android.util.Log
 import android.widget.Button
 import budgetsaver.confapp1.R
 
-private const val TAG = "HelloActivity"
+private const val TAG = "HelloActivity1"
 
 
 class HelloActivity : AppCompatActivity() {
